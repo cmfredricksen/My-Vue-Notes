@@ -14,8 +14,30 @@
     html goes into this section of the vue file. Next you have the javascript
     wrapped in script tags, followed by the css wrapped in style tags. Take a
     look at HelloWorld.vue and see the basic structure there. All of your
-    components and the App.js follow this same structure.
+    components and the App.vue follow this same structure.
   </p>
+  <h3>Here is a visual model:</h3>
+
+  <p>HTML</p>
+  <li class="details">
+    Place for all of your html. In the main App.vue file it will primarily
+    contain components. More about components in a later section.
+  </li>
+  <p>Javascript</p>
+  <li class="details">
+    Place for all of your javascript. Always contains an export object, with a
+    name property.
+  </li>
+  <li class="details">
+    In the App.vue file you will also be importing your components, and
+    registering them. More on this in a later section.
+  </li>
+  <p>CSS</p>
+  <li class="details">
+    This is where all of your css will go. If you add 'scoped' to the tag then
+    the css will only apply to the component it is part of. The CSS in App.vue
+    over-rides the individual styles.
+  </li>
 </template>
 
 export default { name: 'AboutApp' }
