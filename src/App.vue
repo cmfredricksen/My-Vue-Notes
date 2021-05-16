@@ -5,6 +5,7 @@
   <HowToVue />
   <ExploreVue />
   <AboutApp />
+  <MakeComponent />
 </template>
 
 <script>
@@ -13,6 +14,7 @@
 import HowToVue from "./components/HowToVue";
 import ExploreVue from "./components/ExploreVue";
 import AboutApp from "./components/AboutApp";
+import MakeComponent from "./components//MakeComponent";
 
 export default {
   name: "App",
@@ -22,6 +24,7 @@ export default {
     HowToVue,
     ExploreVue,
     AboutApp,
+    MakeComponent,
   },
 };
 </script>

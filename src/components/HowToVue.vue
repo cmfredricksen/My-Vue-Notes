@@ -7,7 +7,8 @@
   </p>
 
   <p class="emphasis">
-    You will need to intall Vue on your computer first.
+    You will need to intall Vue on your computer. Follow
+    <a href="https://cli.vuejs.org/guide/installation.html">this link</a>
   </p>
   <p>
     1. To start, create a folder in VSCode to hold your Vue app, then open your

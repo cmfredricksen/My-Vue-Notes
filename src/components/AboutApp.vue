@@ -16,14 +16,14 @@
     look at HelloWorld.vue and see the basic structure there. All of your
     components and the App.vue follow this same structure.
   </p>
-  <h3>Here is a visual model:</h3>
+  <h3>Here is a basic model:</h3>
 
-  <p>HTML</p>
+  <p class="model-title">HTML</p>
   <li class="details">
     Place for all of your html. In the main App.vue file it will primarily
     contain components. More about components in a later section.
   </li>
-  <p>Javascript</p>
+  <p class="model-title">Javascript</p>
   <li class="details">
     Place for all of your javascript. Always contains an export object, with a
     name property.
@@ -32,7 +32,7 @@
     In the App.vue file you will also be importing your components, and
     registering them. More on this in a later section.
   </li>
-  <p>CSS</p>
+  <p class="model-title">CSS</p>
   <li class="details">
     This is where all of your css will go. If you add 'scoped' to the tag then
     the css will only apply to the component it is part of. The CSS in App.vue
@@ -40,4 +40,16 @@
   </li>
 </template>
 
-export default { name: 'AboutApp' }
+export default { name: 'AboutApp' };
+
+<style>
+.model-title {
+  background-color: grey;
+  padding: 0.5rem 0.25rem;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+</style>
