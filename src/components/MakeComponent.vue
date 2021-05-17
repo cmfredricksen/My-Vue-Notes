@@ -29,7 +29,7 @@
     <ol>
       <li>a. Import your component like this:</li>
       <code>import MakeFile from './components/MakeFile'</code>
-      <li>b. Register the component like this:</li>
+      <li>b. Register the component within your export object like this:</li>
       <code>
         export default { name: App, components: { NewFile } }
       </code>

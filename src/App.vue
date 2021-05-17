@@ -37,4 +37,15 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+code {
+  background-color: grey;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
+
+li {
+  margin: 1.5rem 0;
+}
 </style>
